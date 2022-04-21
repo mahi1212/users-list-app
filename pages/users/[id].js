@@ -5,9 +5,9 @@ import Layout from '../../components/Layout';
 const UserId = ({ props }) => {
     return (
         <Layout title='User Details'>
-            <div className='fs-3 mt-5'>
+            <div className='container-md fs-3 mt-5'>
                 This is user id : {props.id} | Name : {props.name}. Details :
-                <table className="table table-hover table-striped my-5">
+                <table className="table table-hover table-striped my-5 fs-5">
                     <thead>
                         <tr>
                             <th scope="col">Name</th>

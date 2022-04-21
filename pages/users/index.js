@@ -10,8 +10,7 @@ const Index = ({ props }) => {
         <Layout title="Users Page">
             <div className='container py-2 fs-4'>
                 <ul><li>Total Number of users : {props.length}</li></ul>
-
-                <table className="table border mt-3">
+                <table className="table border mt-3 fs-5">
                     <thead>
                         <tr>
                             <th scope="col">Name</th>
