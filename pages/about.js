@@ -5,7 +5,7 @@ import { useRouter } from 'next/dist/client/router';
 const About = () => {
     const router = useRouter();
     return (
-        <Layout>
+        <Layout title="About Us Page">
             <h1>This is our about page</h1>
             <button onClick={()=> {router.push('/')}} > Home Page </ button >
         </Layout>
