@@ -6,8 +6,10 @@ const About = () => {
     const router = useRouter();
     return (
         <Layout title="About Us Page">
-            <h1>This is our about page</h1>
-            <button onClick={()=> {router.push('/')}} > Home Page </ button >
+            <h3 className='text-info py-5 text-center'>This page is about fetching data of user from JSon place holder and show their details</h3>
+            <div className='text-center'>
+                <button onClick={() => { router.push('/') }} className='btn btn-primary mb-5'> Home Page </ button >
+            </div>
         </Layout>
     );
 };
